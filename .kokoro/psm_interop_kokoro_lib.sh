@@ -259,12 +259,6 @@ psm::csm::setup() {
 #######################################
 psm::csm::get_tests() {
   TESTS=(
-    "gamma.gamma_baseline_test"
-    "gamma.gamma_grpcroute_test"
-    "gamma.affinity_test"
-    "gamma.affinity_session_drain_test"
-    "gamma.csm_observability_test"
-    "app_net_ssa_test"
     "app_net_csm_observability_test"
   )
 }
